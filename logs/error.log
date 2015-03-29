@@ -30,3 +30,59 @@ Stack Trace:
 #2 {main}
 
 
+2015-03-29 10:36:19 Error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tags() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tags',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /bookmarks/tagged
+Stack Trace:
+#0 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\BookmarksController))
+#2 /home/adda/cakephp-3-0-0/adda/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-03-29 10:43:16 Error: [BadMethodCallException] Unknown finder method "tagged"
+Request URL: /bookmarks/tagged
+Stack Trace:
+#0 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/ORM/Table.php(882): Cake\ORM\Table->callFinder('tagged', Object(Cake\ORM\Query), Array)
+#1 /home/adda/cakephp-3-0-0/adda/src/Controller/BookmarksController.php(118): Cake\ORM\Table->find('tagged', Array)
+#2 [internal function]: App\Controller\BookmarksController->tags()
+#3 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/Controller/Controller.php(405): call_user_func_array(Array, Array)
+#4 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\BookmarksController))
+#6 /home/adda/cakephp-3-0-0/adda/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-03-29 10:45:18 Error: [Cake\View\Exception\MissingTemplateException] Template file "Bookmarks/tags.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Bookmarks/tags.ctp',
+)
+Request URL: /bookmarks/tagged
+Stack Trace:
+#0 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/View/View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/Controller/Controller.php(576): Cake\View\View->render(NULL, NULL)
+#2 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\BookmarksController))
+#4 /home/adda/cakephp-3-0-0/adda/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-03-29 10:56:54 Error: [Cake\View\Exception\MissingTemplateException] Template file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/View/View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/Controller/Controller.php(576): Cake\View\View->render(NULL, NULL)
+#2 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#4 /home/adda/cakephp-3-0-0/adda/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
