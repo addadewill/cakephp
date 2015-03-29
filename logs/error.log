@@ -1,0 +1,32 @@
+2015-03-29 01:13:43 Error: Fatal Error (1): Class 'App\Model\Entity\DefaultPasswordHasher' not found in [/home/adda/cakephp-3-0-0/adda/src/Model/Entity/User.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-03-29 01:13:44 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Entity\DefaultPasswordHasher' not found
+Request URL: /users/add
+Stack Trace:
+#0 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', '/home/adda/cake...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-03-29 01:14:53 Error: Fatal Error (1): Class 'App\Model\Entity\DefaultPasswordHasher' not found in [/home/adda/cakephp-3-0-0/adda/src/Model/Entity/User.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-03-29 01:14:53 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Entity\DefaultPasswordHasher' not found
+Request URL: /users/add
+Stack Trace:
+#0 /home/adda/cakephp-3-0-0/adda/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', '/home/adda/cake...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
